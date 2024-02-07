@@ -11,3 +11,4 @@ function digitCount(num){
 console.log('11',digitCount(1287));
 console.log('22',digitCount(1));
 console.log('33',digitCount(9));
+console.log('44',digitCount(-9));
