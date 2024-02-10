@@ -15,3 +15,4 @@ console.log('33', prefix(["abc"]));
 console.log('44', prefix(["abcdefgh", "abcde", "abe"]));
 console.log('55', prefix(["abc", "abc", "abc"]));
 console.log('66', prefix(["abc", "abcde", "xyz"]));
+console.log('77', prefix(["abc", "def", "ghi"]));
