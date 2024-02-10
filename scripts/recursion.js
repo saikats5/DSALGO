@@ -6,4 +6,4 @@ function recursion(n){
     recursion(n-1)
     console.log('Funcy',n)
 }
-console.log('11',recursion(10))
+console.log('11',recursion(10));

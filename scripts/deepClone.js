@@ -34,6 +34,6 @@ function deepClone(obj) {
 }
 
 const data1 = deepClone(data);
-console.log('11', data == data1)
-console.log('22', data.info == data1.info)
+console.log('11', data == data1);
+console.log('22', data.info == data1.info);
 
