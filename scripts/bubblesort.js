@@ -1,5 +1,5 @@
 //[9,44,6,24,53,68,3,45,8,86,5] -> sort
-//compare two elements to move the maximum at the for each complete iteration
+//compare two elements to move the maximum at the end for each complete iteration
 function bubbleSort(arr){
     let swapped;
     do{
