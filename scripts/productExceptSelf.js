@@ -13,5 +13,17 @@
 // Input: nums = [-1,1,0,-3,3]
 // Output: [0,0,9,0,0]
 function productExceptSelf(nums) {
-    
+    let newArr = [], result;
+    for(let i=0; i<nums.length; i++){
+        result = 1;
+        for(let j=0; j<nums.length; j++){
+            if(i!==j){
+                result *= nums[j];
+            }
+        }
+        newArr.push(result);
+    }
+    return newArr;
 };
+console.log('11',productExceptSelf([1,2,3,4]));
+console.log('22',productExceptSelf([-1,1,0,-3,3]));
