@@ -23,7 +23,7 @@ function addStrings(num1, num2) {
   for (let i = 0; i < maxLength; i++) {
     val =
       Number(num1[num1.length - 1 - i] || 0) +
-      Number(num1[num2.length - 1 - i] || 0) +
+      Number(num2[num2.length - 1 - i] || 0) +
       carry
     carry = Math.floor(val / 10)
     res[maxLength - 1 - i] = val % 10
